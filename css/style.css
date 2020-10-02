@@ -72,8 +72,12 @@ body {
   width: 200px;
 }
 
-.hero-title  {
+.hero-title h1, h2 {
   padding-bottom: 30px;
+}
+
+.hero-title h1 {
+  font-size: 4rem;
 }
 
 /* --------- */
