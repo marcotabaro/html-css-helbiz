@@ -11,20 +11,21 @@
 }
 
 .header-top.container [class*="col-"] {
-  height: 80px;
+  height: 64px;
 }
 
 
 /* -------------- */
 
+/* GENERIC */
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* HELPER */
+/* ------------ */
 
-
-/* ------------- */
+/* Header */
 .header-top.container [class*="nav-"] li {
   list-style-type: none;
   display: inline-block;
@@ -34,3 +35,15 @@ body {
   text-decoration: none;
   color: black;
 }
+
+.header-top img {
+  width: 80px;
+}
+
+/* --------- */
+
+
+/* HELPER */
+
+
+/* ------------- */
