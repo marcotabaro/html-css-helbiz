@@ -44,6 +44,15 @@ body {
 
 
 /* HELPER */
+.ghost-align::before {
+	content: "";
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
 
+.text-center {
+  text-align: center;
+}
 
 /* ------------- */
