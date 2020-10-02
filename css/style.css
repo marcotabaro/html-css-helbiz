@@ -4,6 +4,33 @@
   margin: 0;
   border: 0;
 }
+
+/* Debug */
 .debug .container {
   border: 1px solid black;
+}
+
+.header-top.container [class*="col-"] {
+  height: 80px;
+}
+
+
+/* -------------- */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* HELPER */
+
+
+/* ------------- */
+.header-top.container [class*="nav-"] li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.header-top.container [class*="nav-"] li a {
+  text-decoration: none;
+  color: black;
 }
