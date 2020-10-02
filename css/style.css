@@ -1,0 +1,9 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+.debug .container {
+  border: 1px solid black;
+}
