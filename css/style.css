@@ -10,6 +10,11 @@
   border: 1px solid black;
 }
 
+.debug .container-square {
+  border: 1px solid black;
+}
+
+
 .header-top.container [class*="col-"] {
   height: 80px;
   line-height: 80px;
@@ -77,7 +82,7 @@ body {
 }
 
 .hero-title h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 /* --------- */
@@ -88,12 +93,27 @@ body {
 }
 
 /* MAIN FIRST SECTION */
+
+.container-square {
+  max-width: 1350px;
+  margin: 0 auto;
+}
 #square {
   float: left;
+  width: 650px;
+}
+
+#square:last-child {
+  float:
 }
 
 
 /* HELPER */
+.clear::after {
+  clear: both;
+  content: "";
+  display:table;
+}
 
 
 /* ------------- */
