@@ -139,8 +139,17 @@ body {
   background-size: cover;
   width: 100%;
   height: 400px;
+  position: relative;
 }
 
+#iphone {
+  width: 260px;
+  height: 522px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 
 /* </MAIN> */
 
