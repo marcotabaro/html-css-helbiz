@@ -22,7 +22,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* ------------ */
@@ -36,12 +36,12 @@ body {
 .header-top.container [class*="nav-"] li a {
   text-decoration: none;
   color: black;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header-top img {
-  width: 80px;
+  width: 120px;
 }
 
 [class*="nav-"] {
@@ -77,10 +77,20 @@ body {
 }
 
 .hero-title h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 /* --------- */
+
+.separator {
+  height: 50px;
+  wdith: 100%;
+}
+
+/* MAIN FIRST SECTION */
+#square {
+  float: left;
+}
 
 
 /* HELPER */
