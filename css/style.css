@@ -46,7 +46,7 @@ body {
 }
 
 .header-top img {
-  width: 120px;
+  width: 100px;
 }
 
 [class*="nav-"] {
@@ -60,7 +60,7 @@ body {
 .header-bottom {
   background-image: url("../img/hero-bg.jpg");
   background-size: cover;
-  height: 700px;
+  height: 500px;
   position: relative;
 }
 
@@ -71,6 +71,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 800px;
 }
 
 .hero-title img {
@@ -78,11 +79,11 @@ body {
 }
 
 .hero-title h1, h2 {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .hero-title h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 /* --------- */
@@ -92,20 +93,56 @@ body {
   wdith: 100%;
 }
 
-/* MAIN FIRST SECTION */
+/* <MAIN> */
+/* First section */
 
 .container-square {
   max-width: 1350px;
   margin: 0 auto;
 }
-#square {
-  float: left;
+.square {
   width: 650px;
+  background-color: #FAFAFA;
+  text-align: center;
+  padding-top: 100px;
 }
 
-#square:last-child {
-  float:
+.square:last-child {
+  float:right;
 }
+
+.square img:nth-of-type(2) {
+  width: 600px;
+}
+
+.square img:first-child {
+  width: 200px;
+}
+
+.square h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.square a {
+  text-decoration: none;
+  font-size: 1.2rem;
+
+}
+/* ////////////// */
+
+/* SECOND SECTION */
+
+#oldman {
+  background-image: url("../img/anzianosignore.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+
+/* </MAIN> */
 
 
 /* HELPER */
