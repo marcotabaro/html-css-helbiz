@@ -146,7 +146,11 @@ body {
   margin-bottom: 100px;
 }
 
-.mycontainer h2, h3 {
+.mycontainer h2 {
+  margin-top: 100px;
+}
+
+.mycontainer h3 {
   margin-top: 100px;
 }
 
@@ -173,6 +177,25 @@ body {
   height: 500px;
   background-size: cover;
 }
+
+
+/* ///////////////// */
+/* FOURTH SECTION */
+
+[class*="bgimage"] {
+  width: 680px;
+  height: 440px;
+  text-align: center;
+}
+
+.bgimage1 {
+  background-image: url();
+}
+
+.bgimage2 {
+  background-image: url();
+}
+
 /* </MAIN> */
 
 
