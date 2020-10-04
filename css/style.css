@@ -97,7 +97,7 @@ body {
 /* First section */
 
 .container-square {
-  max-width: 1350px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .square {
@@ -189,11 +189,21 @@ body {
 }
 
 .bgimage1 {
-  background-image: url();
+  float: left;
+  background-color:#3B4E61;
+  opacity: 0.7;
 }
 
 .bgimage2 {
-  background-image: url();
+  background-image: url(../img/florence.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  float: right;
+}
+
+[class*="bgimage"]:hover {
+  opacity: 1.00
+
 }
 
 /* </MAIN> */
